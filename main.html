@@ -15,17 +15,18 @@
      <h1>Feedback Form</h1>
 	 <div>
 		 <label for="name">Name:</label>
-		 <input type="text" id="name" required>
+		 <input type="text" id="name" minlength="3" maxlength="50" required>
 	 </div>
 	<div>
 		 <label for="portfolio">Portfolio:</label>
-		 <input type="text" id="portfolio" required>
+		 <input type="url" id="portfolio" required>
 	 </div>
 	<div>
-		<label for="favcolor">Favcolor:</label>
-		<input type="color" id="favcolor" required>
+		<label for="favColor">Favcolor:</label>
+		<input type="color" id="favColor" required>
 	</div>
 	<div class="slidercontainer">
+		<label for="likeness">Likeness</label>
 		<input type="range" id=likeness min="1" max="100"  class="slider">
 	</div>
 	</form>
